@@ -12,4 +12,13 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
  }
  
  
- 
+   function johnLennonFacts(facts) {
+       let arr = [];
+       let i = 0;
+       while (i<facts.length) {
+           i++
+           let str = facts[i] + '!'
+           arr.push(str);
+       } 
+       return arr
+    }
