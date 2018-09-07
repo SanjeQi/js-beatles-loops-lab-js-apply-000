@@ -18,13 +18,12 @@ const facts = [
  }
  
  
-   function johnLennonFacts(facts) {
+    function johnLennonFacts(facts) {
        let arr = [];
        let i = 0;
        while (i<facts.length) {
-           i++
-           let str = facts[i] + '!'
-           arr.push(str);
+           arr.push(facts[i] + '!!!');
+           i++;
        } 
        return arr
     }
